@@ -1,0 +1,82 @@
+* {
+    margin: -1px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+body,
+.Time,
+.leftSide,
+.rightSide,
+.Day,
+.Date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide {
+    flex-direction: column;
+    margin-top: -37px;
+}
+
+.DigitalClock {
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    width: 420px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#hours {
+    font-size: 82px;
+    font-weight: 600;
+}
+
+#dots {
+    font-size: 67px;
+    font-family: serif;
+    font-weight: 500;
+    margin-left: 6px;
+    margin-right: -10px;
+}
+
+#min {
+    font-size: 63px;
+    font-weight: 700;
+}
+
+.rightBottom {
+    font-size: 15.5px;
+    font-weight: 800;
+    margin-right: -146px;
+    margin-left: -114px;
+    margin-top: -17px;
+}
+
+#AmPm {
+    color: burlywood;
+    font-stretch: condensed;
+    font-family: fangsong;
+}
+
+#day {
+    transform: scaleX(1.5);
+    font-size: smaller;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#ddmmyy {
+    transform: scaleX(1.5);
+    font-size: smaller;
+    font-family: sans-serif;
+    font-weight: 500;
+}
